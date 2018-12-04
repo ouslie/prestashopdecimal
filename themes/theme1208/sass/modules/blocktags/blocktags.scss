@@ -1,0 +1,26 @@
+@import "../../_theme_variables";
+
+
+
+.tags_block {
+	
+	.block_content {
+		overflow:hidden;
+		a {
+			display:inline-block;
+			font-size:18px;
+			line-height:20px;
+			font-weight:600;
+			padding:0;
+			border:none;
+			float:left;
+			margin:0 18px 9px 0;
+			@include transition(all 0.3s ease);
+			color:$color4;
+			&:hover {
+				color:$color1;
+		
+			}
+		}
+	}
+}

@@ -1,0 +1,117 @@
+@import "../../../_theme_variables";
+
+/* Top hook CSS */
+#htmlcontent_top {
+    padding-bottom:7px;
+	@media (max-width: $screen-md-max) { //  max 1199px
+		width: 100%;
+		max-width: 100%;
+		padding-left: 0;
+		padding-top: 0;
+	}
+	ul {
+
+		li {
+			margin-bottom: 10px;
+	       @media (max-width: $screen-md-max) { //  max 1199px
+				float: none;
+			
+				width: 100%;
+			}
+			
+		 &.htmlcontent-item-2 a {
+			background: $color4;
+			padding-left:26px;
+			
+			h2{
+
+	           font-size:28px;
+			   line-height:1em;
+				margin: 0;
+				padding: 30px 0 0;
+				
+				}
+				
+			h3{
+	
+			    font-size:19px;	
+				line-height:1em;	
+				margin: 3px 0 0;
+				padding: 0 ;					
+			}
+				
+		}	
+		
+		 &.htmlcontent-item-3 a {
+			background: $color1;
+			padding-left:30px;
+			 h2{
+			   line-height:1em;
+			    font-size:43px;		
+				padding:24px 0 0 ;				
+				}
+			
+			h3{
+			line-height:1em;
+            font-size:14px;
+			margin: 6px 0 0;
+			padding: 0;				
+				}				
+		}			
+			
+		a{
+			background: $color3;
+			box-sizing: border-box;
+			display: block;
+			min-height: 133px;
+			padding: 10px 45px 10px 10px;
+			text-transform: uppercase;
+			@include transition(all 0.3s ease);
+			
+			&:hover{background:$color2}
+			
+			
+			&:before{
+				color: #fff;
+				font-size: 29px;
+				position: absolute;
+				right: 35px;
+				top: calc(50% - 10px);
+				font-family:$font-icon;	
+				content:"\f105"	;
+				font-weight:normal						
+				}			
+			}
+			
+		   h2{
+			color: #fff;
+			font: bold 43px / 1em $font-custom;						
+			margin: 0;
+			letter-spacing: -1px;
+			padding: 23px 0 0 30px;		   
+			   
+			   }
+		 h3{
+			 
+			color: #fff;
+			font: bold 19px / 1em  $font-custom;
+			margin: 1px 0 0;
+			padding: 0 0 0 30px;
+			letter-spacing: -1px;
+			 
+			 }
+		}
+	}
+}
+
+/* Left hook CSS */
+#htmlcontent_left {
+}
+
+/* Right hook CSS */
+#htmlcontent_right {
+}
+
+/* Footer hook CSS */
+#htmlcontent_footer {
+}

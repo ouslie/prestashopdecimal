@@ -1,0 +1,78 @@
+/* Top hook CSS */
+#htmlcontent_top {
+  padding-bottom: 7px; }
+  @media (max-width: 1199px) {
+    #htmlcontent_top {
+      width: 100%;
+      max-width: 100%;
+      padding-left: 0;
+      padding-top: 0; } }
+  #htmlcontent_top ul li {
+    margin-bottom: 10px; }
+    @media (max-width: 1199px) {
+      #htmlcontent_top ul li {
+        float: none;
+        width: 100%; } }
+    #htmlcontent_top ul li.htmlcontent-item-2 a {
+      background: #fe8802;
+      padding-left: 26px; }
+      #htmlcontent_top ul li.htmlcontent-item-2 a h2 {
+        font-size: 28px;
+        line-height: 1em;
+        margin: 0;
+        padding: 30px 0 0; }
+      #htmlcontent_top ul li.htmlcontent-item-2 a h3 {
+        font-size: 19px;
+        line-height: 1em;
+        margin: 3px 0 0;
+        padding: 0; }
+    #htmlcontent_top ul li.htmlcontent-item-3 a {
+      background: #7fb934;
+      padding-left: 30px; }
+      #htmlcontent_top ul li.htmlcontent-item-3 a h2 {
+        line-height: 1em;
+        font-size: 43px;
+        padding: 24px 0 0; }
+      #htmlcontent_top ul li.htmlcontent-item-3 a h3 {
+        line-height: 1em;
+        font-size: 14px;
+        margin: 6px 0 0;
+        padding: 0; }
+    #htmlcontent_top ul li a {
+      background: #fed207;
+      box-sizing: border-box;
+      display: block;
+      min-height: 133px;
+      padding: 10px 45px 10px 10px;
+      text-transform: uppercase;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      #htmlcontent_top ul li a:hover {
+        background: #595958; }
+      #htmlcontent_top ul li a:before {
+        color: #fff;
+        font-size: 29px;
+        position: absolute;
+        right: 35px;
+        top: calc(50% - 10px);
+        font-family: "FontAwesome";
+        content: "\f105";
+        font-weight: normal; }
+    #htmlcontent_top ul li h2 {
+      color: #fff;
+      font: bold 43px/1em "Open Sans", sans-serif;
+      margin: 0;
+      letter-spacing: -1px;
+      padding: 23px 0 0 30px; }
+    #htmlcontent_top ul li h3 {
+      color: #fff;
+      font: bold 19px/1em "Open Sans", sans-serif;
+      margin: 1px 0 0;
+      padding: 0 0 0 30px;
+      letter-spacing: -1px; }
+
+/* Left hook CSS */
+/* Right hook CSS */
+/* Footer hook CSS */

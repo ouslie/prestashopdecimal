@@ -1,0 +1,61 @@
+@import "../../_theme_variables";
+
+/* block top links */
+ul#header_links {
+	list-style-type: none;
+	margin:44px 0 0 0;
+	overflow:hidden;
+	float:right;
+	
+ @media (max-width: $screen-sm-max) { //  max 991px
+		 clear:right;	
+			margin:30px 0 0 0; 		
+	}
+	
+	li {
+		text-transform:capitalize;
+		float: left;
+		padding: 2px 0 2px 20px;
+		border-left:$main_border;
+		margin-left:20px;	
+	   @media (max-width: $screen-xs - 1) { // max 479px
+            padding-left:15px;
+			margin-left:15px;
+         }
+		
+		&:first-child {border:none;}
+		a {
+			text-decoration: none;
+			font-size:14px;
+			line-height:18px;
+			@include transition(all 0.3s ease);
+			font-weight:600;
+			color:#8f8f8e;
+			font-family:$font-custom;
+			
+			&:hover, &.active {
+				color:$color1;
+			}
+		}
+	}
+}
+
+/*block permanent links right and left columns*/
+#permanent_links div {border-bottom: 1px dotted #eee}
+#permanent_links div a {
+	display: block;
+	padding: 7px 11px 5px 22px;
+	color: #333;
+	background:url(img/arrow_right_2.png) no-repeat 10px 10px;
+}
+
+/* block footer links */
+ul#footer_links{
+	clear:both;
+	text-align: center;
+	padding-bottom:6px
+}
+ul#footer_links li{
+	display: inline;
+	padding:0 10px
+}

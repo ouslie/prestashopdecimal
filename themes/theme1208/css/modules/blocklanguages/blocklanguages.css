@@ -1,0 +1,74 @@
+#languages-block-top {
+  float: right;
+  position: relative;
+  padding: 2px 0 3px 20px;
+  margin-top: 43px;
+  margin-left: 20px;
+  z-index: 100;
+  border-left: 1px solid #d4d4d4; }
+  @media (max-width: 991px) {
+    #languages-block-top {
+      margin-top: 18px;
+      border-left: none; } }
+  @media (max-width: 479px) {
+    #languages-block-top {
+      margin-right: 15px;
+      margin-left: 15px; } }
+  #languages-block-top span.firstWord {
+    display: none; }
+  #languages-block-top div.current {
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+    text-align: center;
+    color: #333333;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-transform: uppercase; }
+    #languages-block-top div.current:after {
+      content: "\f107";
+      font-family: "FontAwesome";
+      font-size: 18px;
+      line-height: 18px;
+      padding-left: 5px;
+      color: #7fb934;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      font-weight: normal; }
+    #languages-block-top div.current:hover, #languages-block-top div.current.active {
+      color: #7fb934; }
+      #languages-block-top div.current:hover:after, #languages-block-top div.current.active:after {
+        color: #7fb934; }
+    #languages-block-top div.current.active:after {
+      content: "\f106"; }
+  #languages-block-top ul {
+    display: none;
+    position: absolute;
+    top: 27px;
+    right: -17px;
+    width: 157px;
+    background: #fff;
+    border: 1px solid #d4d4d4;
+    z-index: 20; }
+    #languages-block-top ul li:first-child {
+      border: none; }
+    #languages-block-top ul li {
+      color: #333333;
+      line-height: 35px;
+      font-size: 13px;
+      border-top: 1px solid #d4d4d4; }
+      #languages-block-top ul li a,
+      #languages-block-top ul li > span {
+        padding: 0 10px 0 12px;
+        display: block;
+        color: #333333;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+      #languages-block-top ul li.selected, #languages-block-top ul li:hover a, #languages-block-top ul li.selected span {
+        color: #7fb934; }

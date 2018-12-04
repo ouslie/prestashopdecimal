@@ -1,0 +1,18 @@
+.tags_block .block_content {
+  overflow: hidden; }
+  .tags_block .block_content a {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 0;
+    border: none;
+    float: left;
+    margin: 0 18px 9px 0;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #fe8802; }
+    .tags_block .block_content a:hover {
+      color: #7fb934; }

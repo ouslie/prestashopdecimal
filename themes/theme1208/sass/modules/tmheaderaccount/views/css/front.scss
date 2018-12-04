@@ -1,0 +1,128 @@
+@import "../../../_theme_variables";
+
+#header-login {
+	float:right;
+    margin:44px 0 0 20px;
+	text-align:center;
+	position:relative;
+	z-index:20;
+    @include transition(all 0.3s ease);
+	
+	 @media (max-width: $screen-sm-max) { //  max 991px
+		       margin-top:18px;			
+	}
+	
+	
+	
+	  @media (max-width: 600px) { 
+          clear:both;
+		  margin-right:15px;
+        }	
+	
+	.header_user_info {
+			z-index:10;
+			position:relative;		
+			border:none;		
+			border-left:$main_border;	
+			padding:2px 0 2px 20px;				 
+			float:none;
+					 @media (max-width: 600px) { // max 479px	
+					 }	
+	
+		a {
+			display: block;	
+			cursor: pointer;
+			padding:0;
+		}
+		
+		&.current {		
+					
+			a {
+			color: $color1;	
+			background:none;
+					&:hover{
+					color:$color2;				
+					}		
+			span{display:none;
+			@include transition(all 0.3s ease);
+		 @media (max-width: 600px) { // max 479px
+           display:inline-block;
+		   padding-left:12px;
+
+         }
+			
+			}	
+				
+				&:before{
+	                content: "\f007";
+					font-family: $font-icon;
+					font-size: 20px;
+					line-height: 20px;					
+					@include transition(all 0.3s ease);	
+					font-weight:normal;
+					}		
+								
+									
+			}				
+		
+			&.active a {
+			color:$color2;
+			}
+		}
+	}
+	.logout {
+		overflow:hidden;
+		margin-bottom:0;
+	}	
+}
+
+
+
+#header-login-content {
+	display:none;
+	width:270px;
+	padding:15px;
+	margin:0;
+	position:absolute;
+	right:0;
+	top:26px;
+	z-index:5;
+	background:#fff;
+    border:$main_border;
+	color:#333;
+     @media (max-width: 600px) { // max 479px
+         top:41px;
+    }
+	
+	label {
+		color:#333;	
+	}
+	li {
+		margin:0;
+		padding:0;
+		ul {
+			margin:0 0 10px 0;
+			li {
+				display:block;
+				border-top:$main_border;
+				line-height:35px;
+				&:first-child {border:none;}
+				a {
+					
+					color:#333;
+					padding:0 10px 0 10px;
+					display:block;
+					@include transition(all 0.3s ease);
+					&:hover {
+						background:#f1f1f0;
+						color:#333
+					}
+					i {display:none;}
+				}
+			}
+		}
+	}
+}
+#create_header_account_error {
+	padding:8px;	
+}
