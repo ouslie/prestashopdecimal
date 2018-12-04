@@ -40,9 +40,6 @@ config/xml/*
 
 # Themes, modules and overrides
 
-modules/*
-override/*
-
 admin-dev/themes/default/sass/ie.sass
 admin-dev/themes/default/sass/print.sass
 admin-dev/themes/default/sass/screen.sass
@@ -52,8 +49,6 @@ admin-dev/themes/default/css/screen.css
 
 # Translations and emails templates
 
-translations/*
-mails/*
 !mails/en/
 themes/default-bootstrap/lang/*
 themes/default-bootstrap/modules/*/translations/*.php
